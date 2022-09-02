@@ -1,0 +1,23 @@
+predicting machine
+##notes
+#correction is a fraction of the error-->big error means big correction needed and vv
+# estimate with a model which includes parameters we can adjust--> based on how wrongthe model is compared
+to known true values
+
+classifier
+examples of truth--> called 'training data'
+side note--> visualising data helps
+we want line to be a divider, so preferably not on the data points but either slightly below or above
+classifier not predictor
+error(E) = (desired output - actual output)
+thinkin--> feedback from E to change A
+moderating the updates --> take a fraction of delta A, not all of it
+moderation factor --> learning rate
+moderate the updates with a learning rate so no single training example totally dominates the learning
+moderating helps smooth out noise/errors
+
+limit of a linear classifier (key design feature of NN)
+boolean logical function
+simple linear classifier used to learn from training data wether the data was governed by a Boolean logic function
+linear classifier cant classify XOR function
+Solution: multiple classifier working together
